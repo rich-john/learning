@@ -17,3 +17,5 @@ EXPOSE 80
 
 # Commands to run the application
 CMD ["node", "server.js"]
+
+# then use docker build -t <tag> <path_to_Dockerfile> to build the image
